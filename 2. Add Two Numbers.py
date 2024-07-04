@@ -32,4 +32,12 @@ def reverse_number(list_):
     return int(reversed_num)
 
 
-print(reverse_number(l1) + reverse_number(l2))
+sum_of_two = reverse_number(l1) + reverse_number(l2)
+new_string = str(sum_of_two)
+new_string_list = []
+for k in new_string:
+    new_string_list.append(k)
+print(new_string_list)
+
+
+print(reverse_number(new_string_list))
